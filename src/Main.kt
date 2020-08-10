@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
     funValorPorDefectoMultiple(1)
     funValorPorDefectoMultiple(1,1)
     funValorPorDefectoMultiple(integer2 = 1)
+    funValorPorDefectoMultiple(integer2 = 1, integer1 = 2)
+
 
 }
 

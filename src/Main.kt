@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     funPolimorfica()
     funPolimorfica(1)
     funValorPorDefecto()
@@ -7,8 +7,6 @@ fun main(args: Array<String>) {
     funValorPorDefectoMultiple(1,1)
     funValorPorDefectoMultiple(integer2 = 1)
     funValorPorDefectoMultiple(integer2 = 1, integer1 = 2)
-
-
 }
 
 fun funPolimorfica() {
